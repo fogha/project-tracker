@@ -1,0 +1,36 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #EEF2F7;
+
+    &_image {
+        height: 40px;
+        width: 45px;
+        border-radius: 7px;
+    }
+
+    &_left {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+
+        &>li {
+            margin-right: 40px;
+            color: #79797a;
+        }
+    }
+
+    &_right {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        &>p {
+            margin-left: 10px;
+            font-size: 14px;
+        }
+    }
+}
